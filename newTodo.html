@@ -78,24 +78,18 @@
 </footer>
 </body>
 <script>
-    $(document).ready(function () {
-        var date_input = $('input[name="date"]');
-        var container = "body";
-        format: 'dd/mm/yyyy',
-            container
-        :
-        container,
-            todayHighlight
-        :
-        true,
-            autoclose
-        :
-        true,
-            orientation
-        :
-        "top right"
-    };
-    date_input.datepicker(options);
-    })
-</script>
+	<script>
+			$(document).ready(function(){
+			  var date_input=$('input[name="date"]');
+			  var container="body";
+			  var options={
+				format: 'dd/mm/yyyy',
+				container: container,
+				todayHighlight: true,
+				autoclose: true,
+				orientation: "top right"
+			  };
+			  date_input.datepicker(options);
+			})
+	</script>
 </html>
