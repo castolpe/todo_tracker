@@ -1,3 +1,40 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #FFE546;
+}
+
+@media all and (max-width: 992px) and (min-width: 768px) {
+h1.header-sm {
+    font-size: 84px;
+    }
+h1.highlight-sm {
+    font-size: 74px;
+    }
+}
+
+@media all and (max-width: 768px) {
+h1.header-sm {
+    font-size: 15vw;
+    }
+h1.highlight-sm {
+    font-size: 13vw;
+    }
+h2.subtitle-sm {
+    font-size: 7vw;
+    }
+}
+
 .banner {
     height: 100vH;
     width: 100%;
@@ -22,6 +59,10 @@
     margin-top: 25%;
 }
 
+.title-sm {
+    margin-left: 5%;
+}
+
 h1.header {
     font-family: "Josefin Sans", sans-serif;
     font-size: 84px;
@@ -32,6 +73,13 @@ h1.highlight{
     font-size: 74px;
 }
 
+h1.header-sm {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h1.highlight-sm{
+    font-family: "Josefin Sans", sans-serif;
+}
 
 .newTodo {
     margin-top: 5%;
@@ -44,10 +92,4 @@ h1.highlight{
 
 .header-section {
     margin-bottom: 25px;
-}
-
-.footer-yellow {
-    background-color: #F7DA00;
-    height: 10%;
-
 }
