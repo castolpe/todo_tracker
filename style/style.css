@@ -36,11 +36,15 @@ h2.subtitle-sm {
     }
 }
 
-.banner {
+.jumbotron-md-lg  {
     height: 100vH;
     width: 100%;
     background-image: url("./damian-zaleski-843.jpg");
     background-size: cover;
+}
+
+.jumbotron-xs-sm {
+    background-color: #FFE546;
 }
 
 .navbar {
@@ -82,7 +86,6 @@ h1.highlight-sm{
     margin-top: 5%;
     margin-bottom: 10%;
 }
-
 
 .header-section {
     margin-bottom: 25px;
